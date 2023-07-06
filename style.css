@@ -40,7 +40,13 @@
 
 /* Hero section style starts here */
 .hero-container {
-  background-image:url(images/background.png), linear-gradient(45deg, rgb(236, 53, 53), rgb(16, 126, 16), rgb(238, 238, 130));
+  background-image: url(images/background.png),
+    linear-gradient(
+      45deg,
+      rgb(236, 53, 53),
+      rgb(16, 126, 16),
+      rgb(238, 238, 130)
+    );
   display: flex;
   color: rgb(255, 255, 255);
   height: 100vh;
