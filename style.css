@@ -25,11 +25,14 @@
   margin-right: 30px;
   padding: 10px;
   color: white;
+  border: none;
+  border-radius: 10px;
 }
 .single-item:hover {
   background-color: white;
   color: #414141;
   border: none;
   border-radius: 10px;
+  transition: 0.4s;
 }
 /* nav style ends */
