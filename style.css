@@ -71,11 +71,53 @@ h1 {
   box-shadow: 5px 5px 10px;
   font-size: medium;
   font-weight: 600;
+  cursor: pointer;
 }
 .hero-button:hover {
   background-color: white;
   color: #414141;
-
   transition: 0.4s;
 }
 /* Hero section style ends here */
+
+/* About section starts here  */
+.about-img {
+  width: 250px;
+}
+.about-parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+}
+.about-heading {
+  margin-top: 30px;
+  font-size: 30px;
+  justify-content: center;
+  display: flex;
+}
+.about-h2 {
+  border-bottom: 2px solid;
+}
+.content-about-h3 {
+  font-size: 25px;
+}
+.content-about {
+  font-size: 20px;
+}
+.about-bitton {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #ff0000;
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 10px;
+  font-size: medium;
+  font-weight: 600;
+}
+.about-bitton:hover {
+  background-color: yellow;
+  color: #000000;
+  transition: 0.4s;
+  cursor: pointer;
+}
+/* About section ends here */
