@@ -4,6 +4,7 @@
   padding: 0;
 }
 /* Nav style starts */
+
 .parent-nav {
   background-color: #414141;
   height: 60px;
@@ -36,3 +37,39 @@
   transition: 0.4s;
 }
 /* nav style ends */
+
+/* Hero section style starts here */
+.hero-container {
+  background-image: linear-gradient(45deg, red, green, yellow);
+  display: flex;
+  color: rgb(255, 255, 255);
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero-img {
+  width: 400px;
+}
+.hero-text-container {
+  font-size: larger;
+  font-weight: 700;
+}
+h1 {
+  margin-bottom: 10px;
+}
+.hero-button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #644d00;
+  color: white;
+  box-shadow: 5px 5px 10px;
+  font-size: medium;
+  font-weight: 600;
+}
+.hero-button:hover {
+  background-color: white;
+  color: #414141;
+
+  transition: 0.4s;
+}
+/* Hero section style ends here */
