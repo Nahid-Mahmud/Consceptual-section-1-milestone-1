@@ -127,7 +127,7 @@ h1 {
 .services-main-container {
   background-image: url(images/background.png),
     linear-gradient(45deg, rgb(24, 21, 21), rgb(31, 36, 31), rgb(66, 66, 54));
-  height: 450px;
+  height: 550px;
   color: white;
 }
 .services-heading {
@@ -155,3 +155,30 @@ h1 {
   border-bottom: 3px solid white;
 }
 /* Service section Ends here */
+
+/* Footer section starts Here */
+
+.footer-main-container {
+  color: white;
+  background-image: url(images/background.png),
+    linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 1));
+  height: 400px;
+  padding-top: 150px;
+  list-style: none;
+  line-height: 1.6;
+}
+.footer-parent-container {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-img {
+  margin-bottom: 20px;
+}
+.nav-h-text {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.copyright {
+  text-align: center;
+  margin-top: 150px;
+}
