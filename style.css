@@ -108,14 +108,14 @@ h1 {
 .about-bitton {
   margin-top: 15px;
   padding: 10px;
-  background-color: #ff0000;
+  background-color: #f52929;
   color: rgb(0, 0, 0);
   box-shadow: 5px 5px 10px;
   font-size: medium;
   font-weight: 600;
 }
 .about-bitton:hover {
-  background-color: yellow;
+  background-color: #3a9326;
   color: #000000;
   transition: 0.4s;
   cursor: pointer;
